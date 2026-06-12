@@ -81,33 +81,30 @@ tests/test_features.py — Unit tests for all feature engineering functions
 tests/test_prediction.py — Tests for the prediction pipeline
 tests/test_integration.py — End-to-end integration tests
 
+```
+```
 Employee_Attrition/
 │
 ├── features.py                       ← NEW: Reusable feature engineering module
-├── app.py                            ← UPDATED: Bug fixes, validation, error handling
+├── app.py                            ← Streamlit web app
 ├── best_model.pkl                    ← Model artifact
 ├── scaler.pkl                        ← Scaler artifact
 ├── feature_columns.pkl               ← Feature columns artifact
-│
 ├── EDA(Employee).ipynb               ← Step 1: Exploratory analysis
 ├── cleaning_features(Employee).ipynb ← Step 2: Cleaning + feature engineering
 ├── modeling(Employee).ipynb          ← Step 3: Model training + evaluation
-│
-├── tests/                            ← NEW: Test suite
-│   ├── __init__.py
+├── tests/                            ← Test suite
 │   ├── test_features.py
 │   ├── test_prediction.py
 │   └── test_integration.py
-│
 ├── train.csv                         ← Training data
 ├── test.csv                          ← Test data
 ├── Architecture.png                  ← Project architecture diagram
-│
-├── requirements.txt                  ← UPDATED: Pinned versions
-├── requirements-dev.txt              ← NEW: Dev dependencies
-├── .gitignore                        ← NEW: Exclude large files
-│
-└── README.md                         ← This file
+├── requirements.txt                  ← Python dependencies
+├── requirements-dev.txt              ← Dev dependencies
+├── .gitignore                        ← Excludes large files
+└── README.md
+```
 ```
 ## 🚀 How to Run Locally
 
