@@ -158,6 +158,29 @@ streamlit run app.py
 
 ---
 
+---
+
+## 🤝 Contributors
+
+<a href="https://github.com/Deepthiprabha21">
+  <img src="https://github.com/Deepthiprabha21.png" width="50px" style="border-radius:50%"/>
+</a>
+<a href="https://github.com/harshitboots">
+  <img src="https://github.com/harshitboots.png" width="50px" style="border-radius:50%"/>
+</a>
+
+| Contributor | Role |
+|---|---|
+| [Deepthiprabha21](https://github.com/Deepthiprabha21) | Project Author |
+| [harshitboots](https://github.com/harshitboots) | Feature Engineering, Testing, Bug Fixes |
+
+---
+
+## 👩‍💻 Author
+
+**Deepthi**
+MSc Data Science & Analytics — University of Hertfordshire
+
 ## 👩‍💻 Author
 
 **Deepthi**
