@@ -176,10 +176,6 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
-
-**Deepthi**
-MSc Data Science & Analytics — University of Hertfordshire
 
 ## 👩‍💻 Author
 
