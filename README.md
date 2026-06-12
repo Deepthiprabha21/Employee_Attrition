@@ -66,22 +66,7 @@ Employee attrition costs organisations thousands of pounds per hire in recruitme
 ## 📁 Project Structure
 
 ---
-## Testing
 
-### Install Dependencies
-```
-bash
-pip install -r requirements-dev.txt
-pytest tests/ -v
-pytest tests/ --cov=. --cov-report=html
-```
-```
-# Test Files
-tests/test_features.py — Unit tests for all feature engineering functions
-tests/test_prediction.py — Tests for the prediction pipeline
-tests/test_integration.py — End-to-end integration tests
-
-```
 ```
 Employee_Attrition/
 │
@@ -105,6 +90,21 @@ Employee_Attrition/
 ├── .gitignore                        ← Excludes large files
 └── README.md
 ```
+## Testing
+
+### Install Dependencies
+```
+bash
+pip install -r requirements-dev.txt
+pytest tests/ -v
+pytest tests/ --cov=. --cov-report=html
+```
+```
+# Test Files
+tests/test_features.py — Unit tests for all feature engineering functions
+tests/test_prediction.py — Tests for the prediction pipeline
+tests/test_integration.py — End-to-end integration tests
+
 ```
 ## 🚀 How to Run Locally
 
